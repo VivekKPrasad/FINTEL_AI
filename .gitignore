@@ -2,12 +2,12 @@
 .venv/
 venv/
 
-# Python Cache
-__pycache__/
-*.py[cod]
-
 # Environment Variables
 .env
+
+# Python
+__pycache__/
+*.py[cod]
 
 # VS Code
 .vscode/
@@ -15,10 +15,12 @@ __pycache__/
 # Logs
 *.log
 
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+
 # Playwright
 playwright-report/
 test-results/
-
-# OS Files
-Thumbs.db
-.DS_Store
