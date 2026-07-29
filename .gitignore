@@ -1,26 +1,72 @@
-# Virtual Environment
+# ----------------------------
+# Virtual Environments
+# ----------------------------
 .venv/
 venv/
+env/
 
+# ----------------------------
 # Environment Variables
+# ----------------------------
 .env
+.env.*
 
+# ----------------------------
 # Python
+# ----------------------------
 __pycache__/
 *.py[cod]
+*$py.class
 
-# VS Code
+# ----------------------------
+# Build & Packaging
+# ----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ----------------------------
+# Testing & Coverage
+# ----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ----------------------------
+# Type Checking & Linting
+# ----------------------------
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# IDEs & Editors
+# ----------------------------
 .vscode/
+.idea/
 
+# ----------------------------
 # Logs
+# ----------------------------
 *.log
 
-# Windows
-Thumbs.db
-
-# macOS
-.DS_Store
-
+# ----------------------------
 # Playwright
+# ----------------------------
 playwright-report/
 test-results/
+
+# ----------------------------
+# Operating System Files
+# ----------------------------
+.DS_Store
+Thumbs.db
